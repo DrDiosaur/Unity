@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Player2_Controller : MonoBehaviour
 {
-    
-    public float speed = 10.0f;
-    private float horizontal;
+    public GameObject ball;
     private Rigidbody rb;
+    public float speed = 10.0f;
+
+    private float x, y, z;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,23 +18,36 @@ public class Player2_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxisRaw("Horizontal") != 0) {
-            horizontal = Input.GetAxisRaw("Horizontal") * speed;
-
-            if (transform.position.x < -12.5f)
-            {
-                transform.position = new Vector3(-12.5f, transform.position.y, transform.position.z);
-            }
-
-            if (transform.position.x > 14.5f)
-            {
-                transform.position = new Vector3(14.5f, transform.position.y, transform.position.z);
-            }
-        } else
+        if (transform.position.x < -12.5f)
         {
-            horizontal = 0f;
+            transform.position = new Vector3(-12.5f, transform.position.y, transform.position.z);
         }
-        
-        rb.velocity = new Vector3(horizontal, 0, 0);
+
+        if (transform.position.x > 14.5f)
+        {
+            transform.position = new Vector3(14.5f, transform.position.y, transform.position.z);
+        }
+       
+
+        // if (ball.transform.position.x > transform.position.x){
+        rb.velocity = new Vector3(x = (ball.transform.position.x - transform.position.x) * speed, y = 0.0f, z = 0.0f);
+        if (rb.velocity.x > 50)
+        {
+            x = 50;
+        } else if (rb.velocity.x < -50)
+        {
+            x = -50;
+        }
+        else
+        {
+            x = 0;
+        }
+        // }
+        // if (ball.transform.position.x < transform.position.x)
+        // {
+        //     rb.velocity = new Vector3(x = transform.position.x - speed, y = 0.0f, z = 0.0f);
+        // }
+       
     }
+   
 }
