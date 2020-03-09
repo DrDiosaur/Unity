@@ -31,8 +31,8 @@ public class Ball_Movement : MonoBehaviour
             if (q.Equals(true))
             {
                 rb.constraints = RigidbodyConstraints.None;
-                rb.velocity = new Vector3(x = Random.Range(-5.0f, 5.0f) * speed, y = 0.0f,
-                z = Random.Range(-10.0f, 10.0f) * speed);
+                rb.velocity = new Vector3(x = Random.Range(-5.0f, 5.0f) * speed * Time.deltaTime, y = 0.0f,
+                z = Random.Range(-10.0f, 10.0f) * speed * Time.deltaTime);
                 q = false;
             }
         }

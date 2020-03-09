@@ -11,6 +11,9 @@ public class Score : MonoBehaviour
     public Text scoretext;
 
     private int Score1 = 0, Score2 = 0;
+
+    
+   
     // Start is called before the first frame update
     void Start()
     {

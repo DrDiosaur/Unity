@@ -20,17 +20,17 @@ public class Player2_Controller : MonoBehaviour
     {
         if (transform.position.x < -12.5f)
         {
-            transform.position = new Vector3(-12.5f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(-12.5f * Time.deltaTime, transform.position.y, transform.position.z);
         }
 
         if (transform.position.x > 14.5f)
         {
-            transform.position = new Vector3(14.5f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(14.5f * Time.deltaTime, transform.position.y, transform.position.z);
         }
        
 
         // if (ball.transform.position.x > transform.position.x){
-        rb.velocity = new Vector3(x = (ball.transform.position.x - transform.position.x) * speed, y = 0.0f, z = 0.0f);
+        rb.velocity = new Vector3(x = (ball.transform.position.x - transform.position.x) * speed * Time.deltaTime, y = 0.0f, z = 0.0f);
         if (rb.velocity.x > 50)
         {
             x = 50;

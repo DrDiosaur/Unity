@@ -22,19 +22,19 @@ public class Player1_Movement : MonoBehaviour
 
             if (transform.position.x < -12.5f)
             {
-                transform.position = new Vector3(-12.5f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(-12.5f * Time.deltaTime, transform.position.y, transform.position.z);
             }
 
             if (transform.position.x > 14.5f)
             {
-                transform.position = new Vector3(14.5f, transform.position.y, transform.position.z);
+                transform.position = new Vector3(14.5f * Time.deltaTime, transform.position.y, transform.position.z);
             }
         } else
         {
             horizontal = 0f;
         }
         
-        rb.velocity = new Vector3(horizontal, 0, 0);
+        rb.velocity = new Vector3(horizontal * Time.deltaTime, 0, 0);
     }
     
 }
