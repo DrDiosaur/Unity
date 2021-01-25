@@ -31,5 +31,6 @@ public class Score : MonoBehaviour
             Score2 = Score2 + 1;
         }
         scoretext.text = "Score: " + Score1.ToString() + " " + Score2.ToString();
+        
     }
 }

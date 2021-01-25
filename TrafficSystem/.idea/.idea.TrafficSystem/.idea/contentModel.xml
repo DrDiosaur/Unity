@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\HOME\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\HOME\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TrafficSystem.-1119100682.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\Unity\TrafficSystem" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CarBehaviour.cs" t="Include" />
+          <e p="Intersect.cs" t="Include" />
+          <e p="TrafficLightChange.cs" t="Include" />
+          <e p="Ways.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TrafficSystem.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
