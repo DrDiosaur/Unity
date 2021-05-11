@@ -1,0 +1,8 @@
+﻿{
+  "game_id": STRING,
+  "game_status": STRING,
+  "grid_position": {
+    "x": INT,
+    "y": INT
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+  "grid_size": {
+    "x": INT,
+    "y": INT
+  },
+  "bomb_quantity": INT
+}
