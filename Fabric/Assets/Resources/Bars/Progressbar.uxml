@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Container" style="width: 150px; left: 185px; top: 190px; height: 50px;">
+        <ui:VisualElement name="Container_Header" style="flex-direction: row; font-size: 25px; top: -20px;">
+            <ui:Label text="Producing..." name="txt_producing" style="flex-grow: 1; -unity-font-style: bold; color: rgb(202, 0, 29);" />
+            <ui:Label text="0%" name="txt_percentage" style="-unity-font-style: italic; color: rgb(202, 0, 29);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Container_Bar" style="height: 75px; border-left-color: rgb(194, 70, 88); border-right-color: rgb(194, 70, 88); border-top-color: rgb(194, 70, 88); border-bottom-color: rgb(194, 70, 88); border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px;">
+            <ui:VisualElement name="Bar_Progress" style="height: 100%; width: 0; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background-color: rgb(194, 70, 88);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

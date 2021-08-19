@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\HOME\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\HOME\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Fabric.-677654282.00" t="ExcludeRecursive" />
+    <e p="D:\GitHub\Unity\Fabric" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTween.Modules.asmdef" t="Include" />
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Bars" t="Include">
+            <e p="Progressbar.uxml" t="Include" />
+            <e p="Progressbar2.uxml" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="LoadingScreen" t="Include">
+            <e p="FadingPanel.cs" t="Include" />
+          </e>
+          <e p="MainScene" t="Include">
+            <e p="AlertScript.cs" t="Include" />
+            <e p="CounterScript.cs" t="Include" />
+            <e p="ProgressBarAnimation.cs" t="Include" />
+            <e p="ResourceScript.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="DOTween.Modules.csproj" t="IncludeRecursive" />
+      <e p="Fabric.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
